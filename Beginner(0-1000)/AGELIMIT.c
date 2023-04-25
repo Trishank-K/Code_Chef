@@ -9,7 +9,6 @@ int main(void) {
 	{
 	    scanf("%d %d %d",&min,&max,&curr);
 	    curr >= min ? (curr < max ? printf("YES") : printf("NO")) : printf("NO");
-	    // printf("%s\n",Out);
 	}
 	return 0;
 }
